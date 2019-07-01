@@ -1,6 +1,10 @@
 # Making MIUI Forums Usable
 
-Makes the MIUI forums usable: much less cluttered, bloated and ugly. More specifically, this removes:
+Makes the MIUI forums usable: much less cluttered, bloated and ugly. 
+
+![miui1.png](miui1.png)
+
+More specifically, this removes:
 * Big medals
 * Signatures
 * More userdata under the profile
