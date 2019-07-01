@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Making MIUI forums usable
 // @description  Disable all the annoying crap from the MIUI forums
-// @version      1.3.4
+// @version      1.3.5
 // @author       Mario O.M.
 // @namespace    https://github.com/marioortizmanero/
 // @match        http://*.miui.com/*
@@ -10,7 +10,6 @@
 // ==/UserScript==
 
 // This script was based on https://greasyfork.org/en/scripts/23378-miui-medal-block/code by the user Diathedia.
-// Created on 30/12/18 so not everything could be up to date. Last update: 31/12/18.
 (function() {
     'use strict';
     const experience_widget = document.getElementsByClassName("cm"); // Experience widget under upvoted posts
