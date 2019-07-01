@@ -23,31 +23,32 @@
     var margins1 = document.getElementsByClassName('plc'); // Margins between comments 1
     var margins2 = document.getElementsByClassName('t_fsz'); // Margins between comments 2
     var stamp = document.getElementById('threadstamp'); // Stamp in some posts
-    while(experience_widget.length > 0){
+
+    while (experience_widget.length > 0) {
         experience_widget[0].parentNode.removeChild(experience_widget[0]);
     }
-    while(medals.length > 0){
+    while (medals.length > 0) {
         medals[0].parentNode.removeChild(medals[0]);
     }
-    while(sign.length > 0){
+    while (sign.length > 0) {
         sign[0].parentNode.removeChild(sign[0]);
     }
-    while(userdata.length > 0){
+    while (userdata.length > 0) {
         userdata[0].parentNode.removeChild(userdata[0]);
     }
-    while(icon.length > 0){
+    while (icon.length > 0) {
         icon[0].parentNode.removeChild(icon[0]);
     }
-    while(exp_bar.length > 0){
+    while (exp_bar.length > 0) {
         exp_bar[0].parentNode.removeChild(exp_bar[0]);
     }
-    while(small_medals.length > 0){
+    while (small_medals.length > 0) {
         small_medals[0].parentNode.removeChild(small_medals[0]);
     }
-    for(var i = 0; i < margins1.length; i++){
+    for (let i = 0; i < margins1.length; i++) {
         margins1[i].style.padding = "4px 10px";
     }
-    for(var j = 0; j < margins2.length; j++){
+    for (let i = 0; j < margins2.length; j++) {
         margins2[j].style.minHeight = "40px";
     }
     stamp.style.display = "none";
