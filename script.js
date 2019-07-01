@@ -13,16 +13,16 @@
 // Created on 30/12/18 so not everything could be up to date. Last update: 31/12/18.
 (function() {
     'use strict';
-    var experience_widget = document.getElementsByClassName("cm"); // Experience widget under upvoted posts
-    var medals = document.getElementsByClassName("md_ctrl"); // Big medals in the user data
-    var sign = document.getElementsByClassName("sign"); // Signature under the comments
-    var userdata = document.getElementsByClassName("pil cl"); // Credits and such data under the profile image
-    var icon = document.getElementsByClassName("b_rad_5"); // Profile icons
-    var exp_bar = document.getElementsByClassName("pbg2"); // Small experience bar under the profile icon
-    var small_medals = document.getElementsByClassName("start"); // Small medals under the profile icon
-    var margins1 = document.getElementsByClassName('plc'); // Margins between comments 1
-    var margins2 = document.getElementsByClassName('t_fsz'); // Margins between comments 2
-    var stamp = document.getElementById('threadstamp'); // Stamp in some posts
+    const experience_widget = document.getElementsByClassName("cm"); // Experience widget under upvoted posts
+    const medals = document.getElementsByClassName("md_ctrl"); // Big medals in the user data
+    const sign = document.getElementsByClassName("sign"); // Signature under the comments
+    const userdata = document.getElementsByClassName("pil cl"); // Credits and such data under the profile image
+    const icon = document.getElementsByClassName("b_rad_5"); // Profile icons
+    const exp_bar = document.getElementsByClassName("pbg2"); // Small experience bar under the profile icon
+    const small_medals = document.getElementsByClassName("start"); // Small medals under the profile icon
+    const margins1 = document.getElementsByClassName('plc'); // Margins between comments 1
+    const margins2 = document.getElementsByClassName('t_fsz'); // Margins between comments 2
+    const stamp = document.getElementById('threadstamp'); // Stamp in some posts
 
     while (experience_widget.length > 0) {
         experience_widget[0].parentNode.removeChild(experience_widget[0]);
