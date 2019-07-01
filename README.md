@@ -2,7 +2,7 @@
 
 Makes the MIUI forums usable: much less cluttered, bloated and ugly. 
 
-![miui1.png](miui1.png)
+![example](example.png)
 
 More specifically, this removes:
 * Big medals
