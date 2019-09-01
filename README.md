@@ -2,6 +2,9 @@
 
 Makes the MIUI forums usable: much less cluttered, bloated and ugly. 
 
+***Note: This script isn't useful since the 8th of April, [when the MIUI forums were merged into the Mi Community.](http://en.miui.com/thread-6279183-1-1.html)***
+
+
 ![example](example.png)
 
 More specifically, this removes:
